@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+  }
+.container-fluid{
+    padding: 0 2%;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    padding: 0 7%;
+    top: 0;
+    width: 100%; 
+    height: 70px;
+    border-bottom: 1px inset rgb(221, 216, 216) ;
+}
+#heading{
+    color:#387ed1;
+    font-size: 1.5rem;
+}
+
+  .nav-item{
+      padding: 0 10px;
+      color: rgb(141, 134, 134);
+      font-weight: bold;
+    }
+
+/* Home Section */
+.home{
+    width: auto;
+}
+.home img{
+    width: auto;
+    height: 50vh;
+}
+
+.heading{
+    margin: 30px 0 0 0;
+}
+h1{
+    padding: 5px 0 2px 0;
+}
+
+p{
+    padding: 5px 0 10px 0;
+    font-size: 1.5rem;
+}
+
+/* Largest-Broker Section */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6% auto;
+    text-align: left;
+}
+.cup{
+    text-align: center;
+    flex-basis: 39.3333333333%;
+    width: 39.3333333333%;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+}
+.cup img{
+    width: 100%;
+}
+
+.text{
+    flex-basis: 48%;
+    width: 48%;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    margin: 10px auto;
+}
+
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+.row{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+}
+
+.column-six{
+    flex-basis: 48%;
+    width: 48%;
+    box-sizing: border-box;
+    flex: 0 1 auto;
+
+}
+
+ul.list-items {
+    padding-left: 20px;
+}
+
+ul.list-items li {
+    margin-bottom: 5px;
+    line-height: 1.8;
+}
+
+.press-strip img{
+    padding-top: 10px;
+    width: 100%;
+}
+
+/* Universe Section */
+
+.universe img{
+    width: 80%;
+}
+
+.universe-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
